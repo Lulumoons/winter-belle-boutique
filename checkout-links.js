@@ -50,5 +50,9 @@ window.CHECKOUT_LINKS = {
   "lace-trim-knee-high-socks-white": "",  // Lace-Trim Knee-High Socks, White $18
   "ribbed-knit-lounge-socks-oatmeal": "",  // Ribbed Knit Lounge Socks, Oatmeal $26
   "shell-stitch-crew-socks-gray": "",  // Shell Stitch Crew Socks, Gray $26
+  "cashmere-honeycomb-beret-light-grey": "",  // Cashmere Honeycomb Beret, Light Grey $130
+  "cashmere-chunky-ribbed-hat-chocolate": "",  // Cashmere Chunky Ribbed Hat, Chocolate $180
+  "flip-top-mittens-cherry-red": "",  // Flip-Top Mittens, Cherry Red $80
+  "cashmere-rib-edge-scarf-fire-red": "",  // Cashmere Rib-Edge Scarf, Fire Red $240
 };
 document.addEventListener('click',function(e){var b=e.target.closest('[data-sku]');if(!b)return;var u=CHECKOUT_LINKS[b.dataset.sku];if(u){location.href=u}else{alert('This piece will be available very soon. Thank you for your patience.')}});
