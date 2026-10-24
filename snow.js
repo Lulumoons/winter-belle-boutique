@@ -19,7 +19,7 @@ var css='.wb-snow{position:fixed;inset:0;pointer-events:none;z-index:4;overflow:
 '@keyframes wbdust{to{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.2)}}';
 var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
 var w=document.createElement('div');w.className='wb-snow';w.setAttribute('aria-hidden','true');w.innerHTML='<i class="wb-s1"></i><i class="wb-s2"></i><i class="wb-s3"></i>';document.body.appendChild(w);
-var s=document.createElement('div');s.className='wb-shoot';s.setAttribute('aria-hidden','true');document.body.appendChild(s);
+
 function spark(x,y){var d=document.createElement('span');d.className='wb-dust';d.style.left=x+'px';d.style.top=y+'px';d.style.setProperty('--dx',(Math.random()*40-20)+'px');d.style.setProperty('--dy',(Math.random()*30+10)+'px');document.body.appendChild(d);setTimeout(function(){d.remove()},1000)}
 var last=0;if(matchMedia('(pointer:fine)').matches)addEventListener('pointermove',function(e){var n=performance.now();if(n-last<45)return;last=n;spark(e.clientX,e.clientY)},{passive:true});
 document.querySelectorAll('.card img').forEach(function(f){f.addEventListener('pointerenter',function(){var r=f.getBoundingClientRect();for(var i=0;i<10;i++)spark(r.left+Math.random()*r.width,r.top+Math.random()*r.height*.6)})});
