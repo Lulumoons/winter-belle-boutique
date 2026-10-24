@@ -19,3 +19,5 @@ footer{text-align:center;padding:60px 6vw;font-size:.78rem;color:#9fb0a9}footer 
 .page{max-width:760px;margin:0 auto;padding:40px 6vw 80px;line-height:1.8}
 
 @media (prefers-reduced-motion:reduce){}
+.shipnote{position:relative;z-index:6;background:var(--ev);color:var(--gold);text-align:center;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;padding:8px 12px;border-bottom:1px solid #d4b46a55}
+body>.shipnote+header:not(.solid){top:34px}
