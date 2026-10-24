@@ -1,13 +1,8 @@
 window.CHECKOUT_LINKS = {
-  "cable-knit-sweater-ivory": "",  // Cable Knit Sweater, Ivory $64.99
-  "cable-knit-sweater-latte": "",  // Cable Knit Sweater, Latte $64.99
-  "cable-knit-sweater-charcoal": "",  // Cable Knit Sweater, Charcoal $64.99
-  "cable-knit-sweater-cranberry": "",  // Cable Knit Sweater, Cranberry $64.99
   "cable-cardigan-grey": "",  // Cable Cardigan, Grey $68.99
   "brooks-button-cardigan-mocha": "",  // Brooks Button Cardigan, Mocha $69.99
   "brooks-button-cardigan-olive": "",  // Brooks Button Cardigan, Olive $69.99
   "scarlett-sweater-jacket-mocha": "",  // Scarlett Sweater Jacket, Mocha $89.99
-  "erica-knit-cardigan-cream": "",  // Erica Knit Cardigan, Cream $64.99
   "cori-cardigan-black": "",  // Cori Cardigan, Black $58.99
   "luxe-skinny-ankle-pants-black": "",  // Luxe Skinny Ankle Pants, Black $58.99
   "ribbons-sweater-ivory-evergreen": "",  // Ribbons Sweater, Ivory & Evergreen $64.99
