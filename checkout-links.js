@@ -6,7 +6,6 @@ window.CHECKOUT_LINKS = {
   "cable-cardigan-grey": "",  // Cable Cardigan, Grey $68.99
   "brooks-button-cardigan-mocha": "",  // Brooks Button Cardigan, Mocha $69.99
   "brooks-button-cardigan-olive": "",  // Brooks Button Cardigan, Olive $69.99
-  "scarlett-sweater-jacket-mocha": "",  // Scarlett Sweater Jacket, Mocha $89.99
   "erica-knit-cardigan-cream": "",  // Erica Knit Cardigan, Cream $64.99
   "cori-cardigan-black": "",  // Cori Cardigan, Black $58.99
   "luxe-skinny-ankle-pants-black": "",  // Luxe Skinny Ankle Pants, Black $58.99
@@ -54,5 +53,12 @@ window.CHECKOUT_LINKS = {
   "cashmere-chunky-ribbed-hat-chocolate": "",  // Cashmere Chunky Ribbed Hat, Chocolate $180
   "flip-top-mittens-cherry-red": "",  // Flip-Top Mittens, Cherry Red $80
   "cashmere-rib-edge-scarf-fire-red": "",  // Cashmere Rib-Edge Scarf, Fire Red $240
+  "turtleneck-knit-sweater-wide-leg-set-ivory": "",  // Turtleneck Knit Sweater & Wide-Leg Set, Ivory $99
+  "waffle-knit-long-cardigan-ivory": "",  // Waffle Knit Long Cardigan, Ivory $68
+  "cable-knit-open-cardigan-brown": "",  // Cable Knit Open Cardigan, Brown $87
+  "classic-cable-knit-cardigan-mocha": "",  // Classic Cable Knit Cardigan, Mocha $75
+  "twisted-cable-cardigan-khaki": "",  // Twisted Cable Cardigan, Khaki $70
+  "ribbed-knit-lounge-socks-black": "",  // Ribbed Knit Lounge Socks, Black $25
+  "fair-isle-knit-crew-socks-oatmeal": "",  // Fair Isle Knit Crew Socks, Oatmeal & Navy $14
 };
 document.addEventListener('click',function(e){var b=e.target.closest('[data-sku]');if(!b)return;var u=CHECKOUT_LINKS[b.dataset.sku];if(u){location.href=u}else{alert('This piece will be available very soon. Thank you for your patience.')}});
