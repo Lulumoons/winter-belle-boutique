@@ -21,3 +21,14 @@ footer{text-align:center;padding:60px 6vw;font-size:.78rem;color:#9fb0a9}footer 
 @media (prefers-reduced-motion:reduce){}
 .shipnote{position:relative;z-index:6;background:var(--ev);color:var(--gold);text-align:center;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;padding:8px 12px;border-bottom:1px solid #d4b46a55}
 body>.shipnote+header:not(.solid){top:34px}
+
+/* couture hero */
+.hero h1{font-weight:300;text-transform:uppercase;letter-spacing:.18em;font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.12}
+.hero .eyebrow{display:flex;align-items:center;gap:16px;letter-spacing:.5em;font-size:.68rem;margin-bottom:22px}
+.hero .eyebrow:before{content:"";width:56px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.hero p{position:relative;padding-top:22px;margin-top:18px;color:#e8ece9;letter-spacing:.03em}
+.hero p:before{content:"";position:absolute;top:0;left:0;width:120px;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+.hero .btn{border:none;border-bottom:1px solid var(--gold);padding:10px 2px;letter-spacing:.38em;font-size:.66rem;margin-top:30px}
+.hero .btn:hover{background:transparent;color:#fff;border-color:#fff}
+.hero:after{background:radial-gradient(ellipse at 20% 50%,#000b,transparent 62%),linear-gradient(#0007,transparent 22%,transparent 72%,#0a2018)}
+.hero.theme{height:700px;padding-top:70px}
