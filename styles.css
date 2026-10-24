@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;500&display=swap');
+:root{--ev:#0d2a1f;--ev2:#14382a;--gold:#d4b46a;--silver:#dfe6e3}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#173f2f,#0a2018 60%,#061510);color:var(--silver);font-family:Montserrat,sans-serif;font-weight:300;letter-spacing:.02em}
+a{color:var(--gold);text-decoration:none}header{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:22px 5vw;text-shadow:0 2px 8px #000a}
+header.solid{position:relative;background:transparent}
+.logo{font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:#fff;letter-spacing:.12em}nav a{margin-left:26px;font-size:.78rem;text-transform:uppercase;letter-spacing:.2em;color:var(--silver)}
+.hero{position:relative;height:820px;min-height:560px;background:url(img/hero.jpg) center/cover;display:flex;align-items:center;padding:0 7vw}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 25% 50%,#0008,transparent 60%),linear-gradient(transparent 70%,#0a2018)}
+.hero div{position:relative;z-index:2;max-width:600px;text-shadow:0 3px 18px #000c}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:400;color:#fff}h1{font-size:clamp(2.8rem,6vw,5rem);margin:0 0 10px;letter-spacing:.04em}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.35em;font-size:.75rem}
+.btn{display:inline-block;margin-top:22px;padding:13px 30px;border:1px solid var(--gold);color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;background:transparent;cursor:pointer;font-family:inherit;transition:.3s}.btn:hover{background:var(--gold);color:var(--ev)}
+section{padding:70px 6vw 20px;text-align:center}h2{font-size:2.6rem;margin:0}section>p{font-style:italic;font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:#c9d4cf}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:40px;margin-top:40px}
+.card img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px;box-shadow:0 12px 30px #0008}
+.card h3{font-size:1.45rem;margin:16px 0 4px}.price{color:var(--gold);font-size:1.05rem}.sizes{font-size:.72rem;letter-spacing:.15em;color:#a9b8b2;margin:6px 0}
+.divider{width:80px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:22px auto}
+footer{text-align:center;padding:60px 6vw;font-size:.78rem;color:#9fb0a9}footer a{margin:0 12px}
+.page{max-width:760px;margin:0 auto;padding:40px 6vw 80px;line-height:1.8}
+
+@media (prefers-reduced-motion:reduce){}
